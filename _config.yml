@@ -1,9 +1,12 @@
 title: SEU-Z.P Homepage
 description: A minimal and beautiful Jekyll theme best for writing and note-taking.
-author: Prof. Ziyuan Pu
+author: 
+  - Prof. Ziyuan Pu
+  - Processor, College of Transportation, Southeast University
 avatar: /zp.jpg
-email: ziyuanpu@seu.edu.cn
-email: ziyuan.pu@monash.edu
+email: 
+  - ziyuanpu@seu.edu.cn
+  - ziyuan.pu@monash.edu
 
 plugins:
   - jekyll-seo-tag
