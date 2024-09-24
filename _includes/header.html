@@ -19,6 +19,12 @@
   </a>
 
   <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  <p class="site-author">
+    {% for person in site.author %}
+      {{ person }}<br>
+    {% endfor %}
+  </p>
+
 
   {% if site.data.navigation %}
     <nav class="site-nav">
