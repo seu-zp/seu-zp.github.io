@@ -27,7 +27,7 @@
       <li>
         {% for mail in site.email %}
           <i class="sidebar-icon fas fa-envelope"></i>
-          <a class="contact-info u-email" href="mailto:{{ mail }}">{{ mail }}</a><br>
+          <span class="contact-info u-email">{{ mail }}</span><br>
         {% endfor %}
       </li>
     {%- endif %}
