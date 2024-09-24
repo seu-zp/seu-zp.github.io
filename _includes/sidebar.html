@@ -20,7 +20,9 @@
     {% if site.email -%}
       <li>
         <i class="sidebar-icon fas fa-envelope"></i>
-        <a class="contact-info u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+        {% for mail in site.email %}
+          <a class="contact-info u-email" href="mailto:{{ mail }}">{{ mail }}</a><br>
+        {% endfor %}
       </li>
     {%- endif %}
     {% if site.location -%}
