@@ -9,6 +9,12 @@
   </div>
 {%- endif %}
 
+<p class="site-author">
+  {% for person in site.author %}
+    {{ person }}<br>
+  {% endfor %}
+</p>
+
 <div class="sidebar-section">
   <ul class="contact-list">
     {% if site.author -%}
