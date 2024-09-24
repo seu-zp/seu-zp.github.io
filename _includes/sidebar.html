@@ -17,16 +17,16 @@
 
 <div class="sidebar-section">
   <ul class="contact-list">
-    {% if site.author -%}
+<!--     {% if site.author -%}
       <li>
         <i class="sidebar-icon fas fa-at"></i>
         <span class="contact-info p-name">{{ site.author | escape }}</span>
       </li>
-    {%- endif %}
+    {%- endif %} -->
     {% if site.email -%}
       <li>
-        <i class="sidebar-icon fas fa-envelope"></i>
         {% for mail in site.email %}
+          <i class="sidebar-icon fas fa-envelope"></i>
           <a class="contact-info u-email" href="mailto:{{ mail }}">{{ mail }}</a><br>
         {% endfor %}
       </li>
