@@ -1,6 +1,6 @@
-- title: Twitter
-  url: https://twitter.com/ngzhio
-  icon: fab fa-twitter
+- title: WeChat
+  url: https://github.com/seu-zp/seu-zp.github.io/blob/master/WeChat.jpg
+  icon: fab fa-weixin
 - title: GitHub
-  url: https://github.com/ngzhio/jekyll-theme-hamilton
+  url: https://github.com/seu-zp
   icon: fab fa-github
