@@ -1,10 +1,13 @@
 - title: GitHub
   url: https://github.com/seu-zp
+  icon_type: font
   icon: fab fa-github
 - title: WeChat
   url: https://raw.githubusercontent.com/seu-zp/seu-zp.github.io/refs/heads/master/WeChat.jpg
+  icon_type: font
   icon: fab fa-weixin
 - title: ZhiHu Profile
   url: https://www.zhihu.com/people/seu-z-p
+  icon_type: img
   icon: https://raw.githubusercontent.com/seu-zp/seu-zp.github.io/refs/heads/master/_data/R.png
   
