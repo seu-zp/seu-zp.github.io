@@ -55,7 +55,25 @@
         <li>
           <a class="social-icon" href="{{ social.url }}">
             {% if social.icon_type == 'img' %}
-              <img src="{{ social.icon }}" alt="{{ social.title }}" style="width: 32px; height: 32px;">
+              <img src="{{ social.icon }}" alt="{{ social.title }}" style="width: 32px; height: 32px;.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* 水平居中整个列表 */
+}
+
+.social-icons li {
+  display: flex;
+  align-items: center; /* 垂直居中对齐 */
+  justify-content: center; /* 水平居中图标 */
+  margin: 0 10px; /* 为每个图标添加左右间距 */
+}
+
+.social-icons img,
+.social-icons i {
+  display: block;
+}
+">
             {% elsif social.icon_type == 'font' %}
               <i class="{{ social.icon }} fa-2x" title="{{ social.title }}"></i>
             {% endif %}
