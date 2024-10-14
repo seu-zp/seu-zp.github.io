@@ -53,9 +53,27 @@
     <ul class="social-icons">
       {% for social in site.data.social -%}
         <li>
-          <a class="social-icon" href="{{ social.url }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x" title="{{ social.title }}"></i></a>
+          <a class="social-icon" href="{{ social.url }}">
+            {% if social.icon_type == 'img' %}
+              <img src="{{ social.icon }}" alt="{{ social.title }}" style="width: 32px; height: 32px;">
+            {% elsif social.icon_type == 'font' %}
+              <i class="{{ social.icon }} fa-2x" title="{{ social.title }}"></i>
+            {% endif %}
+          </a>
         </li>
       {%- endfor %}
     </ul>
   </div>
 {%- endif %}
+
+<!-- {% if site.data.social -%}
+  <div class="sidebar-section">
+    <ul class="social-icons">
+      {% for social in site.data.social -%}
+        <li>
+          <a class="social-icon" href="{{ social.url }}"><i class="{{ social.icon | default: 'fas fa-link' }} fa-2x" title="{{ social.title }}"></i></a>
+        </li>
+      {%- endfor %}
+    </ul>
+  </div>
+{%- endif %} -->
