@@ -55,7 +55,7 @@
         <li>
           <a class="social-icon" href="{{ social.url }}">
             {% if social.icon_type == 'img' %}
-              <img src="{{ social.icon }}" alt="{{ social.title }}" style="width: 32px; height: 32px;display: flex; align-items: flex-start;justify-content: center;">
+              <img src="{{ social.icon }}" alt="{{ social.title }}" style="width: 32px; height: 32px;display: flex; align-items: center;justify-content: center;">
             {% elsif social.icon_type == 'font' %}
               <i class="{{ social.icon }} fa-2x" title="{{ social.title }}"></i>
             {% endif %}
