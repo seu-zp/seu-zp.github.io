@@ -1,9 +1,9 @@
 title: Homepage
 description: Z.P Lab of School of Transportation, Southeast University
 author: 
-  - Z.P Lab,
-  - Department of Intelligent Transportation and Spatial Informatics,
-  - School of Transportation,
+  - Z.P Lab, 
+  - Department of Intelligent Transportation and Spatial Informatics, 
+  - School of Transportation, 
   - Southeast University
 avatar: /zp.jpg
 email: 
@@ -16,7 +16,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
-paginate: 10
+paginate: 5
 
 # Uncomment the below line and set the tracking ID for enabling Google Analytics
 # 
