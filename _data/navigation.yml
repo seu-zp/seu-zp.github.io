@@ -1,12 +1,12 @@
-- title: About
+- title: Z.P Lab
   url: /about/
-- title: Years
+- title: People
   url: /years/
-- title: Categories
+- title: Reasearches
   url: /categories/
-- title: Tags
+- title: News
   url: /tags/
-- title: More
+- title: Recruitment
   sublinks:
     - title: FAQ
       url: /faq/
